@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import mongoose from "mongoose";
 import authRoute from "./routes/auth.js";
- import profileRoute from "./routes/profile.js";
+import profileRoute from "./routes/profile.js";
 import projectRoute from "./routes/project.js";
 
 const app = express();
